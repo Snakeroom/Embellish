@@ -1,0 +1,24 @@
+{
+	"name": "embellish",
+	"version": "1.0.0",
+	"description": "Adds Reddit event embeds to old Reddit.",
+	"main": "./src/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Snakeroom/Embellish.git"
+	},
+	"keywords": [
+		"reddit",
+		"embed",
+		"userscript"
+	],
+	"author": "haykam821",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Snakeroom/Embellish/issues"
+	},
+	"homepage": "https://github.com/Snakeroom/Embellish#readme"
+}
