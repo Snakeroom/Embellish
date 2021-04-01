@@ -6,4 +6,4 @@ export const SUBREDDIT_PATH = "/r/" + SUBREDDIT;
 export const VERSION = "1.0.1";
 
 export const PLATFORM = "desktop";
-export const HEIGHT = 400;
+export const HEIGHT = 500;
