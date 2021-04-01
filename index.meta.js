@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name Embellish
-// @version 1.0.1
+// @version 1.0.2
 // @author haykam821
 // @description Adds Reddit event embeds to old Reddit.
 // @homepage https://github.com/Snakeroom/Embellish#readme
