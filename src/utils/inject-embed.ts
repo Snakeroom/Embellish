@@ -1,4 +1,5 @@
-import { API_BASE } from "./constants";
+import { API_BASE, HEIGHT, PLATFORM } from "./constants";
+
 import { addMarker } from "./add-marker";
 
 /**
@@ -9,11 +10,11 @@ export function injectEmbed(nightMode = false): void {
 	const content = document.querySelector("div.content");
 	if (content !== null) {
 		const embed = document.createElement("iframe");
-		embed.src = API_BASE + "/embed?platform=embellish&nightmode=" + (nightMode ? 1 : 0);
+		embed.src = API_BASE + "/embed?platform=embellish&platform" + PLATFORM + "&nightmode=" + (nightMode ? 1 : 0);
 		addMarker(embed, "embed");
 
 		embed.style.width = "calc(100% - 310px)";
-		embed.style.height = "350px";
+		embed.style.height = HEIGHT + "px";
 
 		embed.style.border = "none";
 		embed.style.borderRadius = "8px";
