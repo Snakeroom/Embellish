@@ -1,7 +1,11 @@
 import { API_BASE } from "./constants";
 import { addMarker } from "./add-marker";
 
-export function injectEmbed(nightMode: boolean = false): void {
+/**
+ * Injects an embed at the top of the page.
+ * @param nightMode whether to use a dark appearance
+ */
+export function injectEmbed(nightMode = false): void {
 	const content = document.querySelector("div.content");
 	if (content !== null) {
 		const embed = document.createElement("iframe");

@@ -2,6 +2,10 @@ import { SUBREDDIT, SUBREDDIT_PATH } from "./constants";
 
 import { addMarker } from "./add-marker";
 
+/**
+ * Injects a link button before an element.
+ * @param afterElement The element that should come after the injected element.
+ */
 export function injectLink(afterElement: HTMLElement): void {
 	const spacer = document.createElement("div");
 	spacer.classList.add("spacer");
