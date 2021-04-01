@@ -1,6 +1,6 @@
 {
 	"name": "embellish",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Adds Reddit event embeds to old Reddit.",
 	"main": "./dist/index.user.js",
 	"scripts": {
